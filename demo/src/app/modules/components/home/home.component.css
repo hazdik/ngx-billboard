@@ -1,0 +1,27 @@
+.home {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.title {
+    height: 150px;
+    background-color: #282828;
+}
+
+.corusel-legend {
+    height: 400px;
+}
+
+.left-side {
+    background-color: #282828;
+}
+
+.center-side {
+    background-color: #131313;
+}
+
+.right-side {
+    background-color: #282828;
+}
