@@ -20,9 +20,13 @@
             "mobile": false,
             "styles": [
                 "../../node_modules/bootstrap/dist/css/bootstrap.min.css",
+                "../../node_modules/billboard.js/dist/billboard.css",
                 "css/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+                "../../node_modules/billboard.js/dist/billboard.js",
+                "../../node_modules/billboard.js/dist/billboard.pkgd.js"
+            ],
             "environmentSource": "environments/environment.ts",
             "environments": {
                 "dev": "environments/environment.ts",

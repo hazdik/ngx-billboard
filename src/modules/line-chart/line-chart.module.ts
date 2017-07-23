@@ -1,13 +1,17 @@
-import { NgModule } from "@angular/core";
-import { CommonModule } from "@angular/common";
+import {NgModule} from "@angular/core";
+import {CommonModule} from "@angular/common";
 import {LineChartComponent} from "./components/line-chart.component";
+import {ContextModule} from "../contex";
+import {ContextComponent} from "../contex/components/context.component";
+
 
 @NgModule({
     imports: [
-        CommonModule
+        CommonModule,
     ],
     declarations: [
-        LineChartComponent
+        LineChartComponent,
+        ContextComponent
     ],
     exports: [
         LineChartComponent

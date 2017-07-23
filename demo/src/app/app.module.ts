@@ -15,7 +15,7 @@ import {BrowserModule} from "@angular/platform-browser";
         AppRoutingModule
     ],
     declarations: [
-        AppComponent
+        AppComponent,
     ],
     providers: [],
     entryComponents: [AppComponent],
