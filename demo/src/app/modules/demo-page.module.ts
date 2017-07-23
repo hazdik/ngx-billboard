@@ -1,7 +1,7 @@
 import {NgModule} from "@angular/core";
 import {RouterModule} from "@angular/router";
 import {CommonModule} from "@angular/common";
-import {LineChartModule} from "ngx-billboard";
+import {NgxBillboard} from "ngx-billboard";
 import {Components} from "./components/index";
 import {Services} from "./services";
 
@@ -9,7 +9,7 @@ import {Services} from "./services";
     imports: [
         CommonModule,
         RouterModule,
-        LineChartModule
+        NgxBillboard
     ],
     declarations: [
         ...Components
